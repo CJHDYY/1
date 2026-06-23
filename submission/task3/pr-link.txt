@@ -1,10 +1,17 @@
-未实际提交 PR。
+Fork 仓库：
+https://github.com/CJHDYY/multica.git
 
-原因：当前环境未配置可用于提交 Multica PR 的 GitHub 登录态和个人 fork 权限。
+修复分支：
+fix/sub-issues-sort-by-number
 
-建议 PR 标题：
-fix(tasks): support task-level running timeout in sweeper
+修复 commit：
+b9d3a8cc7 fix(issues): sort child issues by number
 
-建议 PR 链接占位：
-https://github.com/multica-ai/multica/pull/<PR_ID>
+关联 Issue：
+https://github.com/multica-ai/multica/issues/4232
 
+PR 创建入口：
+https://github.com/multica-ai/multica/compare/main...CJHDYY:multica:fix/sub-issues-sort-by-number?quick_pull=1
+
+说明：
+修复分支已推送到个人 fork。打开上方链接即可进入 GitHub 的 Pull Request 创建页面，标题和描述可使用 fix-report.md 中的内容。

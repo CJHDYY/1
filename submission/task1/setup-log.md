@@ -42,9 +42,17 @@ pnpm dev:web
 
 ## 3. 实际执行情况
 
-本次笔试环境已成功完成源码克隆和静态代码分析。由于当前机器没有为本项目准备完整的 PostgreSQL/Redis/Docker/Node/Go 运行链路，本交付包未包含真实服务启动截图。
+本次笔试环境已成功完成源码克隆和静态代码分析，并确认本机缺少完整启动 Multica 所需的基础依赖。环境检查结果如下：
 
-如果在完整开发环境中运行，建议按以下顺序补充截图：
+```text
+node --version -> v22.22.1
+docker --version -> command not found
+pnpm --version -> command not found
+go version -> command not found
+make --version -> command not found
+```
+
+因此当前机器无法真实执行 `make dev` 或启动 PostgreSQL/Redis/Docker 依赖。若在完整开发环境中运行，建议按以下顺序补充截图：
 
 1. Docker Desktop 启动 PostgreSQL 和 Redis。
 2. `pnpm install` 安装前端依赖。
@@ -94,5 +102,4 @@ server/pkg/db/queries/agent.sql:266
 
 ## 5. 截图说明
 
-交付要求中的“运行成功截图”应来自真实本地启动页面。当前交付包中保留此项说明，不伪造运行截图。
-
+本次交付保留环境检查日志作为可复现说明。完整运行成功截图需要在安装 Docker、Go、pnpm、make 后执行 `make dev` 获取。

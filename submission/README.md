@@ -45,9 +45,15 @@ Ran 8 tests in 0.002s
 OK
 ```
 
+## 开源修复提交
+
+- Fork 仓库：`https://github.com/CJHDYY/multica.git`
+- 修复分支：`fix/sub-issues-sort-by-number`
+- 修复 commit：`b9d3a8cc7 fix(issues): sort child issues by number`
+- PR 创建入口：`https://github.com/multica-ai/multica/compare/main...CJHDYY:multica:fix/sub-issues-sort-by-number?quick_pull=1`
+
 ## 重要说明
 
-- 当前交付包未伪造 Multica 本地运行成功截图。`task1/setup-log.md` 中说明了原因和补截图步骤。
-- 当前交付包未伪造 GitHub PR 链接。`task3/pr-link.txt` 中保留了建议 PR 标题和链接占位。
+- `task1/setup-log.md` 记录了本机环境检查结果：当前机器缺少 Docker、Go、pnpm、make，因此未能真实启动 Multica 全栈服务。
+- `task3/` 包含已推送到 fork 的真实修复分支信息、GitHub 权限检查日志和修复分析。
 - 任务二核心实现是可运行代码，未依赖第三方库。
-
