@@ -1,0 +1,8 @@
+提交仓库：
+https://github.com/CJHDYY/1.git
+
+说明：
+该仓库用于提交本次“全栈研发工程师综合笔试题”的完整交付目录。
+
+Multica 原仓库：
+https://github.com/multica-ai/multica

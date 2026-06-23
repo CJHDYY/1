@@ -1,0 +1,10 @@
+未实际提交 PR。
+
+原因：当前环境未配置可用于提交 Multica PR 的 GitHub 登录态和个人 fork 权限。
+
+建议 PR 标题：
+fix(tasks): support task-level running timeout in sweeper
+
+建议 PR 链接占位：
+https://github.com/multica-ai/multica/pull/<PR_ID>
+
