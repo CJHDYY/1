@@ -50,7 +50,7 @@ OK
 - Fork 仓库：`https://github.com/CJHDYY/multica.git`
 - 修复分支：`fix/sub-issues-sort-by-number`
 - 修复 commit：`b9d3a8cc7 fix(issues): sort child issues by number`
-- PR 创建入口：`https://github.com/multica-ai/multica/compare/main...CJHDYY:multica:fix/sub-issues-sort-by-number?quick_pull=1`
+- PR 链接：`https://github.com/multica-ai/multica/pull/4468`
 
 ## 重要说明
 

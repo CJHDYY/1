@@ -70,7 +70,7 @@ ORDER BY parent_issue_id, number ASC;
 - Fork：`https://github.com/CJHDYY/multica.git`
 - 分支：`fix/sub-issues-sort-by-number`
 - Commit：`b9d3a8cc7 fix(issues): sort child issues by number`
-- PR 创建入口：`https://github.com/multica-ai/multica/compare/main...CJHDYY:multica:fix/sub-issues-sort-by-number?quick_pull=1`
+- PR 链接：`https://github.com/multica-ai/multica/pull/4468`
 
 核心 diff：
 

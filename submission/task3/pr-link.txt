@@ -10,8 +10,8 @@ b9d3a8cc7 fix(issues): sort child issues by number
 关联 Issue：
 https://github.com/multica-ai/multica/issues/4232
 
-PR 创建入口：
-https://github.com/multica-ai/multica/compare/main...CJHDYY:multica:fix/sub-issues-sort-by-number?quick_pull=1
+PR 链接：
+https://github.com/multica-ai/multica/pull/4468
 
 说明：
-修复分支已推送到个人 fork。打开上方链接即可进入 GitHub 的 Pull Request 创建页面，标题和描述可使用 fix-report.md 中的内容。
+修复分支已推送到个人 fork，并已向 multica-ai/multica 创建 Pull Request。
